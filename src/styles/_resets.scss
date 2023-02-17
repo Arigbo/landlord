@@ -1,0 +1,30 @@
+h1{
+  color: $secondary;
+}
+.button{
+
+
+  border-radius: 0;
+border: 1px $danger solid;
+color:$danger;
+
+  &.hug {
+    padding: 1vw 2vw;
+    font-size: 1.5rem;
+    font-weight: 800;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+
+}
+
+.btn {
+  border-radius: 0;
+
+  &.hug {
+    padding: 1.5vw 3vw;
+    font-size: 1.125rem;
+    font-weight: 600;
+
+  }
+
+}
