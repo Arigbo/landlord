@@ -13,7 +13,11 @@ const Home = () => {
                         </div>
                       <div className="home-page-hero-inner-left">
                       <div className="home-page-hero-inner-left-middle">
-                        <i className="fa-solid fa-person"></i>
+                      <i className="fa-solid fa-person"></i>
+                        {/* <div className="home-page-hero-inner-left-middle-circle">
+
+                        </div> */}
+                       
                         </div>
                         <div className="home-page-hero-inner-left-last">
                             <h2>INTRODUCTION</h2>

@@ -12,11 +12,12 @@ export const navList = [
 	{ name: "Contact", link: "/service", title: "Services_i_offer", },
 ];
 export const navListIcon = [
-	{ name: <i className="fa-brands fa-whatsapp"></i>, link: "/service", title: "Services_i_offer", },
+	{ name: <i className="fa-brands fa-whatsapp"></i>, link: "/whatsapp.com", title: "Services_i_offer", },
 	{ name: <i className="fa-brands fa-facebook"></i>, link: "http//:facebook.com", title: "Services_i_offer", },
-	{ name: <i className="fa-brands fa-twitter"></i>, link: "/service", title: "Services_i_offer", },
-	{ name: <i className="fa-brands fa-figma"></i>, link: "/service", title: "Services_i_offer", },
-	{ name: <i className="fa-brands fa-github"></i>, link: "/service", title: "Services_i_offer", },
+	{ name: <i className="fa-brands fa-twitter"></i>, link: "/twitter.com", title: "Services_i_offer", },
+	{ name: <i className="fa-brands fa-figma"></i>, link: "/figma.com", title: "Services_i_offer", },
+	{ name: <i className="fa-brands fa-github"></i>, link: "/github.com", title: "Services_i_offer", },
+	{ name: <i className="fa-brands fa-linkedin"></i>, link: "/linkedin.com", title: "Services_i_offer", },
 ];
 
 const HeaderComp = () => {

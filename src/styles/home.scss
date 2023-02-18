@@ -3,79 +3,99 @@
     width: auto;
     // background-color: grey;
     padding: 4rem 0rem 0rem 0rem;
-    font-family: 'Courier New', Courier, monospace;
-   
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
 
 
 
 
     .home-page-hero {
         &-inner {
-          @media screen and (min-width: $mobile){
-            display: grid;
-            grid-template-columns: 0.5fr 1fr;
-          }
-            &-right{
+            @media screen and (min-width: $mobile) {
+                display: grid;
+                grid-template-columns: 0.5fr 1.5fr;
+            }
+
+            &-right {
                 h1 {
 
 
                     color: black;
-                    font-size: 4rem;
+                    font-size: 3.5rem;
                     font-weight: 900;
-                    font-family: 'Courier New', Courier, monospace;
+
                     margin: 0;
                     padding-block: 0;
-            
+
                     :nth-child(2) {
                         text-decoration: underline;
                     }
-            
+
                     span {
                         color: $danger;
                         margin: 0;
                         padding: 0;
                     }
                 }
-            
+
                 button {
                     margin-top: 1rem;
-                &:hover{
+
+                    &:hover {
                         background-color: $danger;
                         color: whitesmoke;
-                        border: 1px solid white;
-                      }
+                    }
                 }
             }
-        &-left{
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            &-middle{
-                @media screen and (min-width: $mobile){
-                    margin-top: 4rem;
+
+            &-left {
+                display: grid;
+                grid-template-columns: 1.2fr 0.8fr;
+                gap: 2rem;
+
+                &-middle {
+                    width: 100%;
+                    text-align: center;
+
+                    @media screen and (min-width: $mobile) {
+                        margin-top: 4rem;
+                    }
+
+                    // &-circle {
+                    //     background-color: grey;
+                    //     width: 30%;
+                    //     height: 20%;
+                    //     z-index: -1;
+                    //     position: absolute;
+                    //     border-radius: 50rem;
+                    //     top: 24rem;
+                    // }
+
+                    i {
+                        font-size: 30rem;
+                        color: $danger;
+                        width: 100%;
+                    }
                 }
-                i {
-                    font-size: 25rem;
-                    z-index: 1;
-                    right: 0;
-                
-                    color: $danger;
+
+                &-last {
+                    text-align: left;
+
+                    h2 {
+                        font-size: 1.5rem;
+                        font-weight: 900;
+                        color: $danger;
+                    }
+
+                    h1 {
+                        font-weight: 600;
+                    }
+
+                    @media screen and (max-width: $mobile) {
+                        margin-top: 3rem;
+                    }
                 }
             }
-            &-last {
-                text-align: left;
-                h2{
-                    font-size: 1.5rem;
-                    font-weight: 900;
-                    color: $danger;
-                }
-                h1{
-                    font-weight: 600;
-                }
-             @media screen and (max-width: $mobile){
-                margin-top: 3rem;
-             } 
-            }
-        }
         }
     }
 }
